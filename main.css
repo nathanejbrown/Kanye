@@ -1,9 +1,17 @@
 #quote p {
-  float: left;
   font-size: 30px;
   color: red;
 }
 #picture img {
   height: 500px;
   width: 500px;
+}
+iframe {
+  visibility: hidden;
+}
+body {
+  background-color: #2d2d2d;
+}
+h1 {
+  color: white;
 }

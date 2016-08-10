@@ -10,6 +10,6 @@ $('document').ready(function () {
   $.ajax ({
     url: 'https://yepi.io/api/quote'
   }).done(function(quote) {
-    $('#quote').append('<p>"' + quote + '"</p>');
+    $('#quote').append('<br><p>"' + quote + '"</p><br>');
   })
 })
