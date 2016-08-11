@@ -7,7 +7,7 @@
   width: 500px;
 }
 #video {
-  visibility: hidden;
+  display: none;
 }
 body {
   background-color: #2d2d2d;
